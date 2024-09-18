@@ -1,0 +1,275 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #000000b9;
+    color: #fff;
+    padding: 1em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 2px 2px 8px #ffffff9f;
+    border: 1px solid #ffffff15;
+    transition: transform .6s ease;
+}
+
+header:hover {
+    transform: scale(110%);
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main {
+    opacity: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em; }
+
+
+
+section {
+    opacity: 95%;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+section:hover {
+    transform: scale(102%);
+    box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.521);
+
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+li {
+    margin-bottom: 20px;
+   
+}
+
+
+img {
+    width: 100%;
+    max-height: 125px; 
+    object-fit: contain;
+}
+
+footer {
+    background-color: #00000094;
+    color: #f5f4f4;
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    clear: both;
+    display: flex; 
+    box-shadow: 2px 20px 50px #ffffff9f;
+    border: 1px solid #ffffff15;
+    justify-content: space-evenly;
+}
+
+
+    header nav ul {
+        flex-direction: initial;
+    }
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+    ul {
+        display: flex; /* flexbox p tela menor*/
+        flex-direction: column;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+
+    .imagem-minha {
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%;
+        margin-left: 10px; 
+        vertical-align: middle; 
+        float: right; 
+        margin-left: 10px; 
+        zoom: 4
+      }
+
+      .image-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+        }
+        
+      
+      .image-link {
+        display: block;
+        width: 50%;
+        cursor: pointer;
+
+      }
+      
+      .image-link img {
+        width: 100%;
+        height: auto;
+        transition: transform .3s ease;
+      }
+      
+      .image-link:hover img {
+        transform: scale(1.1);
+      }
+
+      #projeto {
+        transition: transform 3s;
+      }
+
+    .ensino {
+        zoom: 1.5;
+      }
+
+    #conhecimentos {
+        width: 90%;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .image-container {
+        width: 50%;
+      }
+      
+      .contact-form {
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        width: 50%;
+        padding: 10px;
+        background-color: #1d026988;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.637);
+        padding-right: 50px;
+      }
+
+      #email {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.685);
+        height: 24px;
+        width: 250px;
+      }
+
+      #nome {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.685);
+        height: 24px;
+        width: 300px;
+      }
+
+      textarea {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.685)
+
+      }
+
+      legend {
+        margin-left: 175px;
+      }
+
+    fieldset {
+        transition: transform 1s;
+        box-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+      }        
+
+
+
+      fieldset:hover {
+        transform: scale(101%);
+        box-shadow: 1px 2px 4px rgb(0, 0, 0);
+      }
+
+
+
+      .submit {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid;
+        color: rgb(0, 0, 0);
+        margin-left: 10px;
+        transition: 0.5s;        
+        cursor: pointer;
+        width: 70px;
+
+      }
+
+    .submit:hover {
+        transform: scale(105%);
+    }
+
+      .reset {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid;
+        color: rgb(0, 0, 0);
+        margin: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+        width: 70px;
+      }
+
+      .reset:hover {
+        transform: scale(105%);
+    }
